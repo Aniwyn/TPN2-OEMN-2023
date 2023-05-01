@@ -1,0 +1,94 @@
+.header {
+    background-color: #BBBBBBAA !important;
+    color: white;
+    backdrop-filter: blur(4px) !important;
+}
+
+.transparent {
+    background-color: #00000000;
+}
+
+.headerPhoto { 
+    position: inherit;
+    background-size: contain; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 40rem;
+    z-index: -1;
+}
+
+.titlePhoto {
+    position: absolute;
+    top: 12rem;
+    left: 7rem;
+    font-weight: bold;
+    color: white;
+}
+
+.textPhoto {
+    position: absolute;
+    top: 20rem;
+    left: 7rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.spanTitle {
+    align-items: center;
+    height: 50px;
+    justify-content: left;
+    width: 100%;
+    font-weight: bold;
+    color: #70c5a2;
+}
+
+.sectionTitle {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: left;
+    width: 100%;
+    font-weight: bold;
+    color: #13744b;
+}
+
+.sectionP {
+    align-items: center;
+    display: flex;
+    margin: auto;
+    height: 8rem;
+    justify-content: center;
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    color: gray;
+}
+
+.rowCard {
+    height: 12rem;
+}
+
+.iconPhoto {
+    max-height: 30%;
+}
+
+.centerP {
+    text-align: left;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color: rgb(37, 37, 37);
+}
+
+.main {
+    height: 30rem;
+}
+
+.footer {
+    height: 12rem;
+    background-color: #679c44;
+}
