@@ -84,6 +84,10 @@
     color: rgb(37, 37, 37);
 }
 
+.imageAD {
+    width: 70%;
+}
+
 .main {
     height: 30rem;
 }
