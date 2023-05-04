@@ -4,6 +4,7 @@
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
     "bootstrap": "^5.2.3",
-    "framer-motion": "^10.12.4"
+    "framer-motion": "^10.12.4",
+    "simplelightbox": "^2.13.0"
   }
 }
