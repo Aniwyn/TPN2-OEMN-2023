@@ -9,7 +9,6 @@ import { ActividadesComponent } from './components/actividades/actividades.compo
 import { HistoriaComponent } from './components/historia/historia.component';
 import { MiembrosComponent } from './components/miembros/miembros.component';
 import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
-import { TecnologiaComponent } from './components/tecnologia/tecnologia.component';
 
 
 const routes: Routes = [
@@ -20,7 +19,6 @@ const routes: Routes = [
   { path: 'historia', component: HistoriaComponent },
   { path: 'miembros', component: MiembrosComponent },
   { path: 'quienes-somos', component: QuienesSomosComponent },
-  { path: 'tecnologia', component: TecnologiaComponent },
   { path: '', component: HomeComponent },
   { path: '**', pathMatch: 'full', redirectTo: '' }
 ];

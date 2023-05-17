@@ -15,8 +15,17 @@
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.page-discleimer {
+  padding: 8rem 0;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .bg-primary {
-    background-color: rgba(244, 98, 58, 1) !important;
+    background-color: rgba(29, 136, 65, 1) !important;
+}
+
+.bg-discleimer {
+  background-color: rgb(165, 6, 59) !important;
 }
 
 .text-primary {

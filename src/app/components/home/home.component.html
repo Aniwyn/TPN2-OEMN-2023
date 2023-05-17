@@ -74,7 +74,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" title="Project Name">
+                <a class="portfolio-box" href="/assets/portafolio-2.png" title="Project Name">
                     <img class="img-fluid" src="/assets/portafolio-2.png" alt="..." />
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Cuartos de Examen</div>
@@ -122,7 +122,27 @@
     </div>
 </div>
 
-<section class="page-section" id="contact">
+<section class="container mt-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center my-5">
+        <div class="col-lg-8 col-xl-6 text-center">
+            <h2 class="mt-0">Nuestros clientes</h2>
+            <hr class="divider"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img class="img-fluid" src="/assets/feedback-1.png" alt="...">
+        </div>
+        <div class="col-4">
+            <img class="img-fluid" src="/assets/feedback-3.png" alt="...">
+        </div><!-- /.col-lg-4 -->
+        <div class="col-4">
+            <img class="img-fluid" src="/assets/feedback-2.png" alt="...">
+        </div>
+    </div>
+</section>
+
+<section class="page-section pt-5" id="contact">
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-8 col-xl-6 text-center">
@@ -131,57 +151,65 @@
                 <p class="text-muted mb-5">* Recuerda que los turnos solamente aplican a las cirugías, para cualquier otro procedimiento dirígete a alguno de nuestros locales ¡sin espera alguna!</p>
             </div>
         </div>
-        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-            <div class="col-lg-6">
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <!-- Name input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                        <label for="name">Nombre completo</label>
-                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                    </div>
-                    <!-- Email address input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                        <label for="email">Email</label>
-                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                    </div>
-                    <!-- Phone number input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                        <label for="phone">Celular</label>
-                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                    </div>
-                    <!-- Message input-->
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                        <label for="message">Mensaje</label>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                    </div>
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button></div>
-                </form>
+        <div class="row justify-content-between">
+            <div class="col-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d353.19660498824663!2d8.623907621505305!3d44.911693350727944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47877416947bff95%3A0xb26fc2a9a2705ba4!2sVia%20Marengo%2C%2017%2C%2015121%20Alessandria%20AL%2C%20Italia!5e0!3m2!1ses-419!2sar!4v1684350267128!5m2!1ses-419!2sar" width="100%" height="450rem" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                <div>+54 (17) 412-3123</div>
+            <div class="col-6">
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-10">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Nombre completo</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Celular</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Mensaje</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button></div>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                    <div>+54 (17) 412-3123</div>
+                </div>
+            </div>
+        </div> 
     </div>
 </section>
+

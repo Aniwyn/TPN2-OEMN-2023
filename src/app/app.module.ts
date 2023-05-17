@@ -10,7 +10,6 @@ import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.
 import { MiembrosComponent } from './components/miembros/miembros.component';
 import { ActividadesComponent } from './components/actividades/actividades.component';
 import { HistoriaComponent } from './components/historia/historia.component';
-import { TecnologiaComponent } from './components/tecnologia/tecnologia.component';
 import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
@@ -23,7 +22,6 @@ import { HomeComponent } from './components/home/home.component';
     MiembrosComponent,
     ActividadesComponent,
     HistoriaComponent,
-    TecnologiaComponent,
     HomeComponent
   ],
   imports: [
