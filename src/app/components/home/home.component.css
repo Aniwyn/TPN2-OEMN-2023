@@ -238,12 +238,12 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .specials .nav-link:hover {
-  color: #ffb03b;
+  color: #2e8a45;
 }
 
 .specials .nav-link.active {
-  color: #ffb03b;
-  border-color: #ffb03b;
+  color: #2e8a45;
+  border-color: #2e8a45;
 }
 
 .specials .tab-pane.active {
@@ -273,6 +273,6 @@ header.masthead h1, header.masthead .h1 {
 
   .specials .nav-link.active {
     color: #fff;
-    background: #ffb03b;
+    background: #2e8a45;
   }
 }
